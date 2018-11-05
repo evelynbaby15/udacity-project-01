@@ -13,15 +13,11 @@ body {
 
 #intro_block {
     width: 100%;
-    position: relative;
     background-image: url(img/intro.jpg);
     background-size: cover;
     height: 300px;
 }
 
-/* h1 {
-    font-family: sans-serif;
-} */
 main h2 {
     padding-left: 10px;
     margin: 10px 0;
@@ -36,11 +32,6 @@ main h2 {
 
     text-transform: uppercase;
 }
-
-/* .main-header > div {
-    display: inline-block;
-    vertical-align: middle;
-} */
 
 .main-header__title {
     float: right;
@@ -58,7 +49,6 @@ main h2 {
 }
 
 .feature-work {
-    /* width: 230px; */
     margin: 0 auto;
     text-align: center;
     float: left;
@@ -73,6 +63,7 @@ main h2 {
     text-transform: uppercase;
 }
 
+/* TODO Re-examine here */
 /* max: 400px */
 @media screen and (max-width: 412px) {
     /* #intro_block img {
